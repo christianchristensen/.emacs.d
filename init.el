@@ -5,6 +5,7 @@
 (setq make-backup-files nil) ; stop creating ~ files
 (line-number-mode 1) ; always show line numbers
 (column-number-mode 1) ; " column "
+(menu-bar-mode -1) ; (Ubuntu specific?) Hide {File, Edit, ...} menu bar
 
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (require 'php-mode)

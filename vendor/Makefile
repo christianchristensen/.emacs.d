@@ -5,3 +5,4 @@ all:
 	curl -O "https://raw.github.com/rafl/git-commit-mode/0bcbffd05ffa82fa788e0c8e63c03dd072f42bf9/git-commit.el"
 	curl -O "https://geben-on-emacs.googlecode.com/svn/trunk/dbgp.el"
 	curl -O "https://geben-on-emacs.googlecode.com/svn/trunk/geben.el"
+	curl -O "https://raw.github.com/ruby/ruby/595825dc577616862b271ffac4c58eb27f0610af/misc/ruby-mode.el"

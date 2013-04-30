@@ -6,6 +6,7 @@
 (line-number-mode 1) ; always show line numbers
 (column-number-mode 1) ; " column "
 (menu-bar-mode -1) ; (Ubuntu specific?) Hide {File, Edit, ...} menu bar
+(setq scroll-step 1) ; scroll by lines rather than pages when arrowing
 
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (require 'php-mode)

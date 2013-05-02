@@ -23,3 +23,4 @@
 (autoload 'geben "geben" "PHP Debugger on Emacs" t)
 (require 'ruby-mode)
 (require 'any-ini-mode)
+(require 'mustache-mode)

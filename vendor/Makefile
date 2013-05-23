@@ -8,3 +8,4 @@ all:
 	curl -O "https://raw.github.com/ruby/ruby/595825dc577616862b271ffac4c58eb27f0610af/misc/ruby-mode.el"
 	curl -O "http://www.emacswiki.org/emacs/download/any-ini-mode.el"
 	curl -O "https://raw.github.com/mustache/emacs/6968ae71d309a38b844b334a31354fd50034dd86/mustache-mode.el"
+	curl -O "http://golang.org/misc/emacs/go-mode.el?m=text" -o go-mode.el

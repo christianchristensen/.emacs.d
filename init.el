@@ -24,3 +24,4 @@
 (require 'ruby-mode)
 (require 'any-ini-mode)
 (require 'mustache-mode)
+(require 'go-mode)

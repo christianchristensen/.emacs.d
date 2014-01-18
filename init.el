@@ -25,3 +25,4 @@
 (require 'any-ini-mode)
 (require 'mustache-mode)
 (require 'go-mode)
+(require 'espresso)

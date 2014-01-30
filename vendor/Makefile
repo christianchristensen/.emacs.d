@@ -10,3 +10,4 @@ all:
 	curl -O "https://raw.github.com/mustache/emacs/6968ae71d309a38b844b334a31354fd50034dd86/mustache-mode.el"
 	curl "http://golang.org/misc/emacs/go-mode.el?m=text" -o go-mode.el
 	curl -L -O "http://download.savannah.gnu.org/releases-noredirect/espresso/espresso.el"
+	curl -O "https://raw.github.com/cfengine/core/master/contrib/cfengine.el" # See also: http://www.cfengine.com/files/community/cfengine.el

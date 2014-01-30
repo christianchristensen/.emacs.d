@@ -26,3 +26,4 @@
 (require 'mustache-mode)
 (require 'go-mode)
 (require 'espresso)
+(require 'cfengine)

@@ -29,6 +29,13 @@
 (require 'cfengine)
 (require 'whitespace)
 
-; GUI
-(if (functionp 'tool-bar-mode) (tool-bar-mode 0))
-(setq inhibit-splash-screen t)
+; GUI with solarized light theme
+(if window-system
+    (progn
+      (if (functionp 'tool-bar-mode) (tool-bar-mode 0))
+      (setq inhibit-splash-screen t)
+      (x-focus-frame nil)
+      (require 'color-theme)
+      (add-to-list 'load-path "~/.emacs.d/vendor/themes/color-theme-solarized.el")
+      (color-theme-initialize)
+      (color-theme-solarized-light)))

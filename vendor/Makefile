@@ -12,3 +12,8 @@ all:
 	curl -L -O "http://download.savannah.gnu.org/releases-noredirect/espresso/espresso.el"
 	curl -O "https://raw.github.com/cfengine/core/master/contrib/cfengine.el" # See also: http://www.cfengine.com/files/community/cfengine.el
 	curl -O "http://www.emacswiki.org/emacs/download/whitespace.el"
+	curl -O "https://raw.githubusercontent.com/altercation/solarized/e40cd4130e2a82f9b03ada1ca378b7701b1a9110/emacs-colors-solarized/color-theme-solarized.el"
+	mkdir -p themes
+	mv color-theme-solarized.el themes/.
+	curl -L "http://download.savannah.gnu.org/releases/color-theme/color-theme-6.6.0.tar.gz" | tar zx
+	ln -s color-theme-6.6.0/color-theme.el

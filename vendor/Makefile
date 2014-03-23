@@ -11,3 +11,4 @@ all:
 	curl "http://golang.org/misc/emacs/go-mode.el?m=text" -o go-mode.el
 	curl -L -O "http://download.savannah.gnu.org/releases-noredirect/espresso/espresso.el"
 	curl -O "https://raw.github.com/cfengine/core/master/contrib/cfengine.el" # See also: http://www.cfengine.com/files/community/cfengine.el
+	curl -O "http://www.emacswiki.org/emacs/download/whitespace.el"

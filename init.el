@@ -27,3 +27,8 @@
 (require 'go-mode)
 (require 'espresso)
 (require 'cfengine)
+(require 'whitespace)
+
+; GUI
+(if (functionp 'tool-bar-mode) (tool-bar-mode 0))
+(setq inhibit-splash-screen t)

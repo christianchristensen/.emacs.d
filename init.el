@@ -28,6 +28,7 @@
 (require 'espresso)
 (require 'cfengine)
 (require 'whitespace)
+(require 'erlang)
 
 ; GUI with solarized light theme
 (if window-system

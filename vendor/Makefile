@@ -17,3 +17,4 @@ all:
 	mv color-theme-solarized.el themes/.
 	curl -L "http://download.savannah.gnu.org/releases/color-theme/color-theme-6.6.0.tar.gz" | tar zx
 	ln -s color-theme-6.6.0/color-theme.el
+	curl -O "http://www.erlang.org/download/contrib/erlang.el"
